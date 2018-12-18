@@ -1,0 +1,20 @@
+<div class="userDetailsContainer">
+    <div class="userDetails">
+        <div class="userImg">
+            <img src={{model.user.avatar_url}} />
+            <span><button name="Back" {{action "redirect"}}> &lt; Back </button></span>
+        </div>
+        <div class="details">
+            {{#each-in model.user as |property value| }}
+            <ul>
+                <li>
+                    {{property}}
+                </li>
+                <li>
+                    {{value}}
+                </li>
+            </ul>
+            {{/each-in}}
+        </div>
+    </div>
+</div>

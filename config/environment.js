@@ -3,9 +3,10 @@
 module.exports = function(environment) {
   let ENV = {
     modulePrefix: 'vt',
+    podModulePrefix: 'vt/pods',
     environment,
     rootURL: '/',
-    locationType: 'auto',
+    locationType: 'hash',
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build

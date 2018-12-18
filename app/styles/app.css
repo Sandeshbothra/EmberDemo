@@ -1,0 +1,204 @@
+html{
+    height:100%;
+}
+body{
+    margin:0px;
+    height: inherit;
+}
+
+.ember-view{
+    height: inherit;
+}
+
+.container{
+    height: inherit;
+}
+
+.topBand{
+    width: 100%;
+    height: 3rem;
+    background: #9a9595
+}
+
+.footer{
+    height: 3rem;
+    width: 100%;
+    background: #9a9595
+}
+
+.footer p{
+    padding: 6px 1px 1px 1px;
+    text-align: center;
+    vertical-align: middle;
+    color:#fff;
+}
+
+.main{
+    padding:2rem;
+    height:100%;
+    overflow: scroll;
+}
+
+.userList .search{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.search input{
+    width: 90%;
+    height: 30px
+}
+
+.userList .allUsers, .userList .sortListedusers{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.userList .allUsers ul,.userList .sortListedusers ul{
+    list-style:none;
+    height: 32rem;
+    margin: 2rem 0rem !important;
+    padding: 0rem !important;
+}
+
+.userList .sortListedusers ul{
+    height: 15rem;
+    max-height: 32rem;
+}
+
+.sortListedusers{
+    margin-top: 5rem;
+    border: 1px solid #eee;
+    overflow: scroll;
+    max-height: 36rem;
+}
+
+.sortListedusers h{
+    display: block;
+    background: #9a9595;
+    height: 32px;
+    vertical-align: middle;
+    padding: 8px 0px 0px 15px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.user{
+    width: 10rem;
+    height:14rem;
+    float: left;
+    border:1px solid #eee;
+    margin: 0rem 2rem 1rem 0rem;
+    text-align: center;
+    padding:0.5rem 0rem;
+}
+
+.sortListedusers .user{
+    margin: 0rem 1rem 1rem 1rem;
+}
+
+.user img{
+    width: 8rem;
+    border-radius: 5rem;
+}
+
+.user .name,.user .type{
+    margin: 0.5rem 0rem;
+    text-align: center;
+}
+
+.user .name {
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor:pointer;
+    height: 16px;
+}
+
+.user .type{
+    font-size: 12px;
+    color: #777;
+}
+
+.addUserButton{
+    float : left;
+    width:40%;
+    border:1px solid #eee;
+    text-align: center;
+    border-radius: 10px;
+    margin:0px 2px 0px 4px;
+    padding: 3px 0px;
+    background: #9a9595;
+    color: #fff;
+    cursor : pointer;
+}
+
+.removeUserButton{
+    float : left;
+    width:50%;
+    border:1px solid #eee;
+    text-align: center;
+    border-radius: 10px;
+    margin:0px 3px 0px 2px;
+    padding: 3px 0px;
+    cursor : pointer;
+}
+
+.sortListedusers .removeUserButton{
+    margin: 0px 0px 0px 35px;
+    background: #9a9595;
+    color: #fff;
+}
+
+.userDetailsContainer{
+    padding: 5rem 15rem;
+}
+
+.userDetails .userImg{
+    padding: 1rem;
+    overflow: hidden;
+    border-bottom: 1px solid #9a9595;
+}
+
+.userDetails .userImg img{
+    width:8rem;
+    border-radius:5rem;
+    float: left;;
+}
+
+.userDetails .userImg span{
+    padding: 3rem 8rem;
+    float: right;
+}
+
+.userDetails .userImg button{
+    font-size: 20px;
+    border-radius: 5px;
+    background: #9a9595;
+    color: #fff;
+    padding: 5px 20px;
+}
+
+.userDetails .details{
+    padding: 0px;
+    border: 1px solid #e2dbdb;
+    overflow: hidden;
+}
+
+.userDetails .details ul{
+    list-style: none;
+    height: 15px;
+    padding: 10px 15px;
+    border-bottom: 1px solid #e2dbdb;
+    margin: 0px;
+    background: #eee;
+}
+
+.userDetails .details ul li{
+    float: left;
+    width:60%
+}
+
+.userDetails .details ul li:first-child{
+    float: left;
+    width:40%
+}
